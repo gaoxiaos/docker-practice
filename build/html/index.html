@@ -1,0 +1,261 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Docker practice for AI developers &mdash; Docker practice for AI developers 0.1 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="AI开发者的docker实践" href="dockerai.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> Docker practice for AI developers
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">docker practice:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dockerai.html">AI开发者的docker实践</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Docker practice for AI developers</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Docker practice for AI developers</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="docker-practice-for-ai-developers">
+<h1>Docker practice for AI developers<a class="headerlink" href="#docker-practice-for-ai-developers" title="永久链接至标题">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">docker practice:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dockerai.html">AI开发者的docker实践</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dockerai.html#id1">目录</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dockerai.html#id2">前言</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dockerai.html#id3">基础概念</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dockerai.html#id4">环境篇</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#docker">docker 安装</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id5">docker 基础命令学习</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="dockerai.html#id18">实践篇</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id19">1.创建镜像仓库账号</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id20">2.实践docker 练习赛（天池）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#docker-gpu">3.docker 在本地使用gpu</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="dockerai.html#id22">天池竞赛规范</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id23">1.数据集挂载</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id24">2.预训练权重</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id25">3.持久化存储</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id26">4.执行入口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id27">5.网络环境</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id28">6.超时时间</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id29">7.日常调试提交</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id30">8.自定义镜像</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id31">9.线上存储空间大小</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id32">10.线上共享内存大小</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#ai-hub">11.流评测工具包AI-HUB</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="dockerai.html#id33">常用镜像（含国内源和美西源）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dockerai.html#id34">docker&amp;大赛：</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id35">1. docker 大赛技巧</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id36">2. 天池大赛下限制条件/注意事项/常见问题集</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id47">3. 其他技巧</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dockerai.html#id53">4. 常见问题</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="永久链接至标题">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">索引</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">模块索引</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">搜索页面</span></a></p></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="dockerai.html" class="btn btn-neutral float-right" title="AI开发者的docker实践" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版权所有 2021, gaoxiaosu.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>强化学习入门-超级玛丽挑战赛 &mdash; Docker practice for AI developers 0.1 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="prev" title="强化学习入门-超级玛丽挑战赛" href="spuerm.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Docker practice for AI developers
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="spuerm.html">强化学习入门-超级玛丽挑战赛</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">强化学习入门-超级玛丽挑战赛</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">任务描述</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">提交说明</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">常见问题：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Docker practice for AI developers</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>强化学习入门-超级玛丽挑战赛</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/强化学习入门-超级玛丽挑战赛.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>强化学习入门-超级玛丽挑战赛<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>超级玛丽.gif
+零基础入门超级玛丽强化学习训练营（代码实践）传送门：<a class="reference external" href="https://zhuanlan.zhihu.com/p/340583086">https://zhuanlan.zhihu.com/p/340583086</a></p>
+<div class="section" id="id2">
+<h2>任务描述<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>本次竞赛为大家提供了gpu资源，帮助大家更好入门，可参考baseline 基础镜像:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">registry</span><span class="o">.</span><span class="n">cn</span><span class="o">-</span><span class="n">shanghai</span><span class="o">.</span><span class="n">aliyuncs</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">tcc</span><span class="o">-</span><span class="n">public</span><span class="o">/</span><span class="nb">super</span><span class="o">-</span><span class="n">mario</span><span class="o">-</span><span class="n">ppo</span><span class="p">:</span><span class="n">race</span>
+</pre></div>
+</div>
+<p>游戏得分即为所得成绩，游戏关卡设计为随机关卡，建议大家从训练开始，然后预测，如果提交单预测模型，可通过env.info等获得关卡信息。
+虽然参考baseline代码即可完成通关，但如果想进一步提升能力，可考虑如何修改模型/目标等使得通关的过程中能够额外获得其他得分，比如吃金币、蘑菇等技能。</p>
+<p>运行说明：
+单次提交最大运行时间8小时，满足大家提交训练+预测会单预测的需要。
+代码运行入口为WORKDIR(镜像默认工作目录)下的run.sh 可根据自己需要修改此文件内容</p>
+<p>过程日志和训练曲线：
+运行结束可在成绩页面查看日志，日志大小有限制，控制酌情打印，具体限制参见日志页。
+数据曲线图功能在内测中，后续为大家开放。</p>
+</div>
+<div class="section" id="id3">
+<h2>提交说明<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>每个队伍每天有 5 次提交机会。每个队伍在同一时间只能存在一个运行中的任务，上次提交的任务未运行结束再次提交会默认中断上次任务，提交时会有弹窗提示。</p></li>
+<li><p>第一次接触 docker 可参考
+<a class="reference external" href="https://tianchi.aliyun.com/competition/entrance/231759/tab/174">https://tianchi.aliyun.com/competition/entrance/231759/tab/174</a></p></li>
+<li><p>网络配置：容器内<strong>无可用网络</strong>，请注意所需软件环境直接安装进镜像，镜像中不要包含网络操作相关代码，否则镜像运行时会卡死或中断。</p></li>
+<li><p>运行日志：为了方便进行问题定位，开放了运行日志的内容查看。运行日志限制在1000行和500K以内，请合理安排日志内容。</p></li>
+</ul>
+<div class="section" id="id4">
+<h3>常见问题：<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li><p>运行状态一直卡在waiting，展开详情是ImagePullBackOff，常见原因有<strong>镜像地址错误、用户名密码错误、没有指定版本号</strong>导致的拉取镜像出错，小概率因为镜像服务商不稳定导致。</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="spuerm.html" class="btn btn-neutral float-left" title="强化学习入门-超级玛丽挑战赛" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版权所有 2021, gaoxiaosu.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
