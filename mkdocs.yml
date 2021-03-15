@@ -1,5 +1,5 @@
 site_name: Docker practice for AI developers
 nav:
-- docker practice: 'index.md'
+- docker practice: 'dockerai.md'
   #- about: 'about.md'
 theme: readthedocs
