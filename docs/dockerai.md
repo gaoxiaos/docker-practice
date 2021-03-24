@@ -184,13 +184,13 @@ docker pull [选项] [docker镜像地址:标签]
 
 如：
 ```
-docker pull holloword:latest
+docker pull hello-world:latest
 ```
 
 
 #### 3.2 运行镜像
 ```
-$ docker run hollow-word:latest
+$ docker run hello-world:latest
 
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
